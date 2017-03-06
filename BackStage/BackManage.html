@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后台管理界面</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/BackManage.css">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js" ></script>
+	<script type="text/javascript" src="js/BackManage.js" ></script>
+</head>
+<body>
+<div id="top"></div>
+<div class="left_plate">
+	<p class="manager">我是管理员</p>
+	<hr class="manager_hr">
+	<div class="link_div">
+		<a class="link" href="#RoomImg">工作室图片</a>
+		<a class="link" href="#Person">成员信息</a>
+		<a class="link" href="#Production">作品信息</a>
+		<a class="link" href="#Graduation">优秀之星</a>
+		<a class="link" href="#Study">学习中心</a>
+		<a class="link" href="#Information">网站意见</a>
+	</div>
+</div>
+<div class="right_plate">
+	<div id="RoomImg">
+		<p class="Useful_Word">工作室图片</p>
+		<hr class="Useful_hr">
+		<p class="Useful_Word_2">轮播图片<span class="Useful_Word_3">(限三张,最佳大小：1349*530px)</span></p>
+		<div class="RoomImgUpload">
+			<form enctype="multipart/form-data" method="GET" action=""><!-- 没有action——URL地址 -->
+				<label for="fileToUpload">请选择上传的文件：</label>
+				<input type="file" name="fileToUpload" id="fileToUpload" onchange="fileSelected();"/>
+				<input type="button" onclick="uploadFile()" value="上传" id="Upload" />
+				<div id="fileName"></div>
+				<div id="fileSize"></div>
+				<div id="fileType"></div>
+				<div id="progressNumber"></div>
+			</form>
+		</div>
+		<div class="RoomImgUpload_box">
+			<!-- <div class="RoomImgUpload_1"><img src=""></div>
+			<div class="RoomImgUpload_2"><img src=""></div>
+			<div class="RoomImgUpload_3"><img src=""></div> -->
+		</div>
+
+		<p class="Useful_Word_2">工作室景色<span class="Useful_Word_3">(限两张，最佳大小：674.5*200px)</span></p>
+		<div class="RoomImgView">
+			<form enctype="multipart/form-data" method="GET" action="">
+				<label for="fileToView">请选择上传的文件：</label>
+				<input type="file" name="fileToView" id="fileToView" onchange="fileSelected();"/>
+				<input type="button" onclick="UploadView()" value="上传" id="ViewUpload" />
+				<div id="progressNumber_2"></div>
+			</form>
+		</div>
+		<div class="RoomImgView_box">
+			<!-- <div class="RoomImgView_1"><img src=""></div>
+			<div class="RoomImgView_2"><img src=""></div> -->
+		</div>
+	</div>
+	<div id="Person">
+		<p class="Useful_Word">成员信息</p>
+		<hr class="Useful_hr">
+		<div class="Person_add">
+			<form enctype="multipart/form-data" method="GET" action="">
+				职位：<input type="text" id="PersonPosition">
+				名字：<input type="text" id="PersonName">
+				人物介绍：<textarea id="PersonInfo"></textarea>
+				<label class="PersonImgWord" for="PersonImg">成员图片： <span class="Useful_Word_3">(最佳大小为245*235px)</span></label>
+				<input type="file" id="PersonImg">
+				<button id="PersonBtn" ><a href="#Person">提 交</a></button>
+			</form>
+		</div>
+		<div class="Person_view">
+			<!-- <ul>
+				<li>职位：</li>
+				<li>名字：</li>
+				<li>人物介绍：</li>
+				<li>人物图片：</li>
+			</ul> -->
+		</div>
+	</div>
+	<div id="Production">
+		<p class="Useful_Word">作品信息</p>
+		<hr class="Useful_hr">
+		<div class="Pro_add">
+			<form enctype="multipart/form-data" method="GET" action="">
+				作品名称：<input type="text" id="ProName">
+				作品信息：<textarea id="ProInfo"></textarea>
+				<label class="ProImgWord" for="ProImg">作品图片： <span class="Useful_Word_3">(菱形图片，最佳大小为196*196px)</span></label>
+				<input type="file" id="ProImg">
+				<button id="ProBtn" ><a href="#Production">提 交</a></button>
+			</form>
+		</div>
+		<div class="Pro_view">
+			
+		</div>
+	</div>
+	<div id="Graduation">
+		<p class="Useful_Word">优秀之星</p>
+		<hr class="Useful_hr">
+		<div class="Gra_add">
+			<form enctype="multipart/form-data" method="GET" action="">
+				优秀之星名称：<input type="text" id="GraName">
+				优秀之星年级：
+				<select id="#GraGrade">
+  						<option value="2010级">2010级</option>
+  						<option value="2011级">2011级</option>
+  						<option value="2012级">2012级</option>
+  						<option value="2013级">2013级</option>
+  						<option value="2014级">2014级</option>
+  						<option value="2015级">2015级</option>
+  						<option value="2016级">2016级</option>
+  						<option value="2017级">2017级</option>
+  						<option value="2018级">2018级</option>
+  						<option value="2019级">2019级</option>
+  						<option value="2020级">2020级</option>
+  						<option value="2021级">2021级</option>
+  						<option value="2022级">2022级</option>
+  						<option value="2023级">2023级</option>
+  						<option value="2024级">2024级</option>
+  						<option value="2025级">2025级</option>
+				</select>
+				优秀之星技术：
+				<select id="GraPosition">
+					<option value="前端">前端</option>
+					<option value="后台">后台</option>
+					<option value="美工">美工</option>
+					<option value="安卓">安卓</option>
+					<option value="IOS">IOS</option>
+				</select>
+				优秀之星去向：<input type="text" id="GraPlace">
+				<button id="GraBtn" ><a href="#Graduction">提 交</a></button>
+			</form>
+		</div>
+		<div class="Gra_view">
+			
+		</div>
+	</div>
+	<div id="Study">
+		<p class="Useful_Word">学习中心</p>
+		<hr class="Useful_hr">
+		<div class="Stu_add">
+			<form enctype="multipart/form-data" method="GET" action="">
+				资料分类：
+				<select id="StuKind">
+					<option value="书籍">书籍</option>
+					<option value="学习网站">学习网站</option>
+					<option value="成功案例">成功案例</option>
+					<option value="好玩好用">好玩好用</option>
+				</select>
+				资料名称：<input type="text" id="StuName">
+				<label class="StuImgWord" for="StuImg">资料图片： <span class="Useful_Word_3">(最佳大小为200*200px)</span></label>
+				<input type="file" id="StuImg">
+				<br>
+				<span class="stuIntrWord">资料信息：</span><textarea id="stuIntr"></textarea>
+				推荐人：
+				<input type="text" id="stuReco">
+				<button id="StuBtn" ><a href="#Study">提 交</a></button>
+			</form>
+		</div>
+		<div class="Stu_view">
+			
+		</div>
+	</div>
+	<div id="Information">
+		<p class="Useful_Word">网站意见</p>
+		<hr class="Useful_hr">
+		<div class="Sug_view">
+			
+		</div>
+	</div>
+</div>
+<div class="bottom_to_top">
+	<a class="btt_a" href="#top">返回顶部</a>
+</div>
+</body>
+</html>

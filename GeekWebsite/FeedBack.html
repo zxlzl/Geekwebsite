@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>意见反馈</title>
+	<script type="text/javascript" src="js/head.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/base.css"> 
+	<link rel="stylesheet" type="text/css" href="css/FeedBack.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".SubmitFk").click(function(){
+                $.ajax({
+                    type:"GET",
+                    url:'',
+                    data:{
+                        SugName:$("#SugName").val(),
+                        SugEmail:$("#SugEmail").val(),
+                        SugPhone:$("#SugPhone").val(),
+                        SugContent:$("#SugContent").val()
+                    },
+                    success:function(){
+                        alert("提交成功，谢谢您的建议！");
+                    },
+                    error:function() {
+                        alert("提交失败!");
+                    }
+                })
+            });
+     
+        })
+    </script>
+</head>
+<body>
+    <!-- 指定位置 -->
+    <div class="position"></div>
+    <!-- 第一栏 -->
+    <div class="LearnHome mt10 pb10 ml150">    	
+    	<div class="main">
+    	    <p class="gray">极客网/FeedBack</p>
+    	</div>
+    </div>
+    <main class="main">
+    <!-- 第二栏 -->
+    	<div class="title">
+    		<p class="mt20 f40 fb black">FeedBack</p>
+            <p class="NowTime gray f12 mb20">ContactUs：15215070060</p>
+            </div>
+    	</div>
+    </main>
+    <!-- 反馈栏 -->
+    <div class="fkBorder">
+        <div class="main fk mb30 pb30">
+        	<p class="pt20 ml50 f20">Please tell us your suggestion</p>
+        	<textarea class="TextArea ml110 mt30 f16 pt20 pl20 pr20" id="SugContent"></textarea>
+        	<p class="mt20 ml50 f20">Your name:</p>
+        	<input type="text" class="text mt20 ml110" id="SugName">
+        	<p class="mt20 ml50 f20">Your e-mainl adress:</p>
+        	<input type="text" class="text mt20 ml110" id="SugEmial">
+        	<p class="mt20 ml50 f20">Your Telephone:</p>
+        	<input type="text" class="text mt20 ml110" id="SugPhone">
+        	<p  class="mt30 ml400 f20"><input type="submit" value="提交" class="SubmitFk white f14"></p>
+        </div>
+    </div>
+    
+    <!-- 跳转到学习家园 -->
+    <div class="assistant">
+        <h1 class="f30 fb">PERSONAL ASSISTANT</h1>
+        <p>YOU DO NOT KONW WHAT TO LEARN?WE HELP YOU!</p>
+        <a href="LearnHome.html"><img src="images/assistant.jpg"></a>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footerContent">
+            <ul class="footerContent-first">
+                <li class="subject">GET IN TOUCH</li>
+                <div class="phone"><li>+12345678</li></div>
+                <div class="address"><li>经管学院3楼</li></div>
+                <li><img src="images/line-1.jpg"></li>
+                <div class="qq"><li>qq群:123456</li></div>
+                <div class="email"><li>123456@qq.com</li></div>
+            </ul>
+            <ul class="footerContent-second">
+                <li class="subject">ABOUT US</li>
+                <li class="aboutUs">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxzxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</li>
+            </ul>
+            <ul class="footerContent-third">
+                <li class="subject">RECOMMAND</li>
+                <li><a href="">重庆邮电大学</a></li>
+                <li><a href="">经济管理学院</a></li>
+                <li><a href="">现代邮政学院</a></li>
+                <li><a href="">教务在线</a></li>
+                <li><a href="">图书馆</a></li>
+                <li><a href="">红岩网校</a></li>
+                <li><a href="">信管工作室</a></li>
+                <li><a href="">实验室</a></li>
+            </ul>
+            <ul class="footerContent-four">
+                <li class="subject">OFFICIAL WEBSITE</li>
+                <li><a href="">百度</a></li>
+                <li><a href="">优设网</a></li>
+                <li><a href="">慕课网</a></li>
+                <li><a href="">博客园</a></li>
+                <li><a href="">RAP</a></li>
+            </ul>
+            <div class="footerBottom">
+                <img src="images/line-2.jpg">
+                <li>@2017极客网工作室</li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

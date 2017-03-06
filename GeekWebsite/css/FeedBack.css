@@ -1,0 +1,138 @@
+.position {
+	position: absolute;
+	top: 72px;
+	left: 1005px;
+	width: 80px;
+	height: 6px;
+	background: #505f56;
+	border-radius: 10%;
+}
+.LearnHome {
+	width: 100%;
+	border-bottom: 1px solid #cad6ce;
+}
+.main {
+	width: 940px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+/* 第二栏 */
+.title {
+	border-bottom: 1px solid #cad6ce;
+}
+.NowTime {
+	text-align: right;
+}
+/* 反馈栏 */
+.fkBorder {
+	width: 100%;
+	background: #cccccc;
+	border-bottom: 1px solid #cad6ce;
+}
+.fk {
+	background: #fff;
+}
+.TextArea {
+	height: 200px;
+	width: 75%;
+	border: 1px solid #9bb2a4;
+	border-radius: 3%;
+}
+.text {
+	border: 1px solid #9bb2a4;
+	border-radius: 3%;
+	width: 35%;
+	height: 30px;
+}
+.SubmitFk {
+    text-align: center;
+    width: 20%;
+    height: 40px;
+	background: #9bb2a4;
+	font-family: "微软雅黑";
+	border-radius: 7%;
+}
+/* 共同部分 */
+.assistant {
+    height: 220px;
+    background: #1b1f1d;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+.assistant h1 {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.assistant p {
+    padding-left: 200px;
+}
+.assistant img {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.footer {
+    clear: both;
+	background:url(../images/footer.jpg);
+    height: 330px;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+}
+.subject {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footerContent {
+    width: 1048px;
+    margin: 0 auto;
+}
+.footerContent-first img {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.phone {
+	background: url(../images/phone.jpg) no-repeat;
+}
+.phone li {
+    padding-left: 30px;
+}
+.address {
+	background:url(../images/address.jpg) no-repeat;
+}
+.address li {
+    padding-left: 30px;
+}
+.qq {
+	background: url(../images/qq.jpg) no-repeat;
+}
+.qq li {
+    padding-left: 30px;
+}
+.email {
+	background:url(../images/emai.jpg) no-repeat;
+}
+.email li {
+    padding-left: 30px;
+}
+.aboutUs {
+    width: 200px;
+    display: block;
+    word-wrap: break-word;
+    word-break: normal; 
+}
+.footerContent ul {
+    float: left;
+    margin-top: 50px;
+    width: 260px;
+}
+.footerBottom {
+    clear: both;
+}
+.footerBottom img {
+    margin-top: 50px;
+}
+.footerBottom li {
+    padding-top: 10px;
+    text-align: center;
+}

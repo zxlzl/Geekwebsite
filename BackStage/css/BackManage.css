@@ -1,0 +1,347 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,a,div,img{
+	padding: 0; margin: 0;
+}
+body{
+	margin: 0 auto;
+}
+table{
+    border-collapse:separate;
+    border-spacing:0;
+}
+img {
+	border: 0px;
+    margin:0; 
+} 
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.left_plate{
+	position: fixed;
+	float: left;
+	width: 250px;
+	height: 800px;
+	margin-left: 20px;
+	margin-top: 5px;
+	background: #272822;
+}
+.right_plate{
+	float: left;
+	width: 1000px;
+	height: 1000px;
+	margin-left: 270px;
+	margin-top: 5px;
+}
+.manager{
+	margin-top: 5px;
+	color: white;
+	font-family: '微软雅黑';
+	font-size: 35.67px;
+	font-weight: bold;
+	text-align: center;
+}
+.manager_hr{
+	color: white;
+	margin: 0 auto;
+	width: 220px;
+	margin-top: 5px;
+}
+.link_div{
+	width: 250px;
+	height: 600px;
+	margin-top: 20px;
+}
+.link{
+	margin-top: 15px;
+	display: block;
+	color: white;
+	font-family: '微软雅黑';
+	font-size: 18.67px;
+	font-weight: bold;
+	text-align: center;
+}
+.link:hover{
+	color: red;
+}
+.Useful_Word{
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: '微软雅黑';
+	font-size: 30px;
+	font-weight: bold;
+}
+.Useful_Word_2{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: bold;
+}
+.Useful_Word_3{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	font-weight: bold;
+}
+/*轮播图片和工作室图片添加*/
+.RoomImgUpload{
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#fileToUpload{
+	width: 180px;
+	text-align: center;
+	border-radius: 5px;
+}
+#Upload{
+	width: 40px;
+	height: 30px;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+.RoomImgUpload_box{
+	margin-left: 440px;
+	margin-top: 10px;
+	width: 600px;
+	height: 250px;
+	border: 1px solid black;
+}
+.RoomImgUpload_1{
+	display: inline-block;
+	width: 180px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: 1px solid blue;
+}
+.RoomImgUpload_2{
+	display: inline-block;
+	position: relative;
+	width: 180px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: 1px solid blue;
+}
+.RoomImgUpload_3{
+	display: inline-block;
+	position: relative;
+	width: 180px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: 1px solid blue;
+}
+.RoomImgView{
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#fileToView{
+	width: 180px;
+	text-align: center;
+	border-radius: 5px;
+}
+#ViewUpload{
+	width: 40px;
+	height: 30px;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+.RoomImgView_box{
+	margin-left: 440px;
+	margin-top: 10px;
+	width: 600px;
+	height: 250px;
+	border: 1px solid black;
+}
+.RoomImgView_1{
+	display: inline-block;
+	width: 280px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: 1px solid blue;
+}
+.RoomImgView_2{
+	display: inline-block;
+	position: relative;
+	width: 280px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: 1px solid blue;
+}
+/*成员信息*/
+.Person_add{
+	margin-left: 20px;
+	height: 260px;
+}
+#PersonPosition{
+	width: 100px;
+}
+#PersonName{
+	width: 150px;
+}
+#PersonInfo{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+
+}
+.PersonImgWord{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 90px;
+}
+#PersonImg{
+	margin-left: 250px;
+	margin-top: 120px;
+	width: 200px;
+}
+#PersonBtn{
+	position: absolute;
+	margin-top: 120px;
+	width: 70px;
+	height: 25px;
+}
+#PersonImgName{
+	position: absolute;
+	margin-left: 710px;
+	margin-top: 10px;
+}
+.Person_view{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.Person_view ul li{
+	float: left;
+}
+/*作品信息*/
+.Pro_add{
+	margin-left: 20px;
+	height: 260px;
+}
+#ProName{
+	width: 150px;
+}
+#ProInfo{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+
+}
+.ProImgWord{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 90px;
+}
+#ProImg{
+	margin-left: 250px;
+	margin-top: 120px;
+	width: 200px;
+}
+#ProBtn{
+	position: absolute;
+	margin-top: 120px;
+	width: 70px;
+	height: 25px;
+}
+.Pro_view{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+/*毕业学长学姐信息*/
+.Gra_add{
+	margin-left: 20px;
+	height: 260px;
+}
+#GraName{
+	width: 100px;
+}
+#GraPlace{
+	width: 150px;
+}
+#GraBtn{
+	width: 70px;
+	height: 25px;
+}
+.Gra_view{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+/*学习资料信息*/
+.Stu_add{
+	margin-left: 20px;
+	height: 260px;
+}
+#StuName{
+	width: 250px;
+}
+.StuImgWord{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+#StuImg{
+	margin-left: 50px;
+	margin-top: 120px;
+	width: 230px;
+}
+#StuBtn{
+	width: 80px;
+	height: 35px;
+	margin-left: 40px;
+}
+.stuIntrWord{
+	position: absolute;
+	margin-top: 30px;
+}
+#stuIntr{
+	margin-left: 70px;
+	margin-top: 10px;
+	width: 400px;
+	height: 60px;
+}
+.Stu_view{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+/*意见反馈*/
+.Sug_view{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.bottom_to_top{
+	position: fixed;
+	width: 40px;
+	height: 70px;
+	background: #3E3126;
+	right: 15px;
+	bottom: 30px;
+}
+.btt_a{
+	display: inline-block;
+	margin-top: 10px;
+	font-family: '微软雅黑';
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #D7D7D7;
+}
+.btt_a:hover{
+	color: red;
+}
