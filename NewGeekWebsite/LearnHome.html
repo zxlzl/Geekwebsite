@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Geek</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/LearnHome.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/LearnHome.js"></script>
+    <script type="text/javascript" src="js/fenye.js"></script>
+    <script type="text/javascript" src="js/backTop.js"></script>
+</head>
+<body>
+    <div class="top">
+        <ul>
+            <li class="top-Logo">&nbsp;</li>
+            <li ><a href="index.html">首页</a></li>
+            <li><a href="member.html">团队介绍</a></li>
+            <li><a class="a1"  href="LearnHome.html">学习家园</a></li>
+            <li><a href="success.html">成功案例</a></li>
+            <li><a href="ExcellentStar.html">优秀之星</a></li>
+            <li><a href="FeedBack.html">意见反馈</a></li>
+        </ul>
+    </div>
+    <!-- 指定位置 -->
+    <!-- <div class="position"></div> -->
+    <!-- 第一栏 -->
+    <div class="LearnHome mt10 pb10 ml150">    	
+    	<div class="main">
+    	    <p class="gray">极客网/LearningCenter</p>
+    	</div>
+    </div>
+    <div class="main">
+    <!-- 第二栏 -->
+    	<div class="title">
+            <div class="mt20 f40 fb black"><p>LearningCenter</p></div>
+            <div class="catalog gray f12 pt10 pb10">
+                <span class="SpanBorder">书籍推荐</span>
+                <span>学习网站链接</span>
+                <!-- <span>成功项目</span> -->
+                <span>好玩好用</span>
+                <span class="NowTime">ContactUs：18680758675</span>
+            </div>
+    	</div>
+        <!-- 主要内容 -->
+        <div class="mt20 clearfix w pl20">
+            <!-- 侧边栏 -->
+            <div class="SideCatalog mr50">
+                <!-- 书籍推荐 -->
+                <div class="BookRecommendation pb20" id="BookRecommendation1">
+                    <h3 class="mb5 black clearfix">书籍推荐</h3>
+                    <ul id="BookTxt">
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            精通css
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            JavaScirpt高级程序设计
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            深入浅出MySql
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            Java编程思想
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            React Native跨平台开发
+                        </a></li>
+                    </ul>
+                    <span class="fr gray f12" id="more1">更多>></span>
+                </div>
+                <div class="detail pb20" style="display:none" id="detail1">
+                    <h3 class="mb5 black clearfix">书籍推荐</h3>
+                    <ul id="BookTxt-more">
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.iy8vwE&id=520437288751&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            精通css
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            JavaScirpt高级程序设计
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            深入浅出MySql
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            Java编程思想
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            React Native跨平台开发
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.iy8vwE&id=520437288751&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white">6</div>
+                            html5与css3权威指南
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white">7</div>
+                            ES6标准入门
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white">8</div>
+                            编写高质量代码
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white">9</div>
+                            锋利的jquery
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white">10</div>
+                            深入理解bootstrap
+                        </a></li>
+                    </ul>
+                    <span id="PickUp1"><收起></收起></span>
+                </div>
+                <!-- 学习网站链接 -->
+                <div class="BookRecommendation pb20 mt20" id="BookRecommendation2">
+                    <h3 class="mb5 black clearfix">学习网站链接</h3>
+                    <ul id="WebTxt">
+                        <li><a href="https://www.cnblogs.com/">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            博客园
+                        </a></li>
+                        <li><a href="http://www.imooc.com">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            慕课网
+                        </a></li>
+                        <li><a href="https://github.com/">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            github
+                        </a></li>
+                        <li><a href="http://blog.csdn.net/">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            博客频道
+                        </a></li>
+                        <li><a href="http://www.w3cschool.cn/">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            W3C school
+                        </a></li>
+                                            </ul>
+                                            <span class="fr gray f12" id="more2">更多>></span>
+                                        </div>
+                                        <div class="detail pb20" style="display:none" id="detail2">
+                                            <h3 class="mb5 black clearfix">学习网站链接</h3>
+                                            <ul id="WebTxt-more">
+                        <li><a href="https://www.cnblogs.com/">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            博客园
+                        </a></li>
+                        <li><a href="http://www.imooc.com">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            慕课网
+                        </a></li>
+                        <li><a href="https://github.com/">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            github
+                        </a></li>
+                        <li><a href="http://blog.csdn.net/">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            博客频道
+                        </a></li>
+                        <li><a href="http://www.w3cschool.cn/">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            W3C school
+                        </a></li>
+                        <li><a href="http://www.zhangxinxu.com/">
+                            <div class="ranking mt5 mr5 white">6</div>
+                            鑫生活，鑫空间
+                        </a></li>
+                        <li><a href="http://jquery.com/">
+                            <div class="ranking mt5 mr5 white">7</div>
+                            jQuery官网
+                        </a></li>
+                        <li><a href="https://cn.vuejs.org/">
+                            <div class="ranking mt5 mr5 white">8</div>
+                            vue.js官网
+                        </a></li>
+                        <li><a href="http://getbootstrap.com/2.3.2/">
+                            <div class="ranking mt5 mr5 white">9</div>
+                            bootstrap官网
+                        </a></li>
+                        
+
+                    </ul>
+                    <span id="PickUp2"><收起></收起></span>
+                </div>
+                <!-- 成功案例 -->
+                <!-- <div class="BookRecommendation pb20 mt20" id="BookRecommendation3">
+                    <h3 class="mb5 black clearfix">成功案例</h3>
+                    <ul id="SucTxt">
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">1</div>
+                            精通css
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">2</div>
+                            JavaScirpt高级程序设计
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">3</div>
+                            深入浅出MySql
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            Java编程思想
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            React Native跨平台开发
+                        </a></li>
+                                            </ul>
+                                            <span class="fr gray f12" id="more3">更多>></span>
+                                        </div>
+                                        <div class="detail pb20" style="display:none" id="detail3">
+                                            <h3 class="mb5 black clearfix">成功案例</h3>
+                                            <ul id="SucTxt-more">
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.iy8vwE&id=520437288751&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            精通css
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            JavaScirpt高级程序设计
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            深入浅出MySql
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            Java编程思想
+                        </a></li>
+                        <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            React Native跨平台开发
+                        </a></li>
+                    </ul>
+                    <span id="PickUp3"><收起></收起></span>
+                </div> -->
+                <!-- 好玩好用 -->
+                <div class="BookRecommendation pb20 mt20" id="BookRecommendation4">
+                    <h3 class="mb5 black clearfix">好玩好用</h3>
+                    <ul id="GoodTxt">
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            bootstrapUl皮肤
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            tab选项卡
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            背景动画效果
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            二维码插件
+                        </a></li>
+                        <li><a href="">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            可任意拖动菜单
+                        </a></li>
+                    </ul>
+                    <span class="fr gray f12" id="more4">更多>></span>
+                </div>
+                <div class="detail pb20" style="display:none" id="detail4">
+                    <h3 class="mb5 black clearfix">好玩好用</h3>
+                    <ul id="GoodTxt-more">
+                        <li><a href="http://www.jq22.com/jquery-info12675">
+                            <div class="ranking mt5 mr5 white HihgLight">1</div>
+                            bootstrapUl皮肤
+                        </a></li>
+                        <li><a href="http://www.jq22.com/jquery-info12683">
+                            <div class="ranking mt5 mr5 white HihgLight">2</div>
+                            tab选项卡
+                        </a></li>
+                        <li><a href="http://www.jq22.com/jquery-info12694">
+                            <div class="ranking mt5 mr5 white HihgLight">3</div>
+                            背景动画效果
+                        </a></li>
+                        <li><a href="http://www.jq22.com/jquery-info12691">
+                            <div class="ranking mt5 mr5 white">4</div>
+                            二维码插件
+                        </a></li>
+                        <li><a href="http://www.jq22.com/jquery-info12682">
+                            <div class="ranking mt5 mr5 white">5</div>
+                            可任意拖动菜单
+                        </a></li>
+                        <li><a href="http://www.jq22.com/jquery-info13582">
+                            <div class="ranking mt5 mr5 white">6</div>
+                            日历插件
+                        </a></li>
+                    </ul>
+                    <span id="PickUp4"><<收起></收起></span>
+                </div>
+            </div>           
+            <!-- 图片展示1 -->
+            <div class="PictureShow clearfix" id="show1">
+                <ul id="BookShow">
+                    <li><a href="">
+                        <img src="images/精通css.jpg">
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/js高程.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/深入浅出MySql.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                        <img src="images/Java编程思想.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/React Native跨平台开发.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.f6n8tA&id=527168819508&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/html5与css3权威指南.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.hIPIRz&id=526959736279&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/ES6.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.v7UShq&id=535487012425&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/编写高质量代码.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.IqDHAE&id=527069392344&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/锋利的jquery.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.OISUmx&id=526927538529&ns=1&abbucket=15">
+                        <img src="images/bootstrap.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.15.WzeQ2l&id=545776900623&ns=1&abbucket=15">
+                        <img src="images/vue.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.62.qYDvC2&id=540396382097&ns=1&abbucket=15">
+                        <img src="images/spring.jpg">
+                        <div class="mask pa"></div>
+                    </a></li>
+                </ul>
+                <!-- <div class="page clearfix" id="clipDIV" >
+                </div> -->
+            </div>
+            <!-- 图片展示2 -->
+            <div class="PictureShow clearfix" id="show2" style="display:none">
+                <div id="link1" class="link">
+                    <div class="text">
+                        <div class="entry-header">
+                            <div>
+                                <a href="" class="entry-title">博客园</a>
+                            </div>
+                            <div class="post-metas">
+                            开发者的网上家园
+                            </div>
+                        </div>
+                        <img src="images/bokeyuan.jpg">
+                        <p>
+                博客园是一个面向开发者的知识分享社区。自创建以来,博客园一直致力并专注于为开发者打造一个纯净的技术交流社区,推动并帮助开发者通过互联网分享知识,从而让更多..</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">慕课网</a>
+                                </div>
+                                <div class="post-metas">
+                                    程序员的梦工厂
+                                </div>
+                    
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                            </a>
+                            <p>慕课网(IMOOC)是IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性,你...</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">github</a>
+                                </div>
+                                <div class="post-metas">
+                                    Build software better,together
+                                </div>
+                    
+                            </div>
+                            <a href="">
+                                <img src="images/git.png">
+                                <div class="more" style="display:none">
+                                    <span>Reader Artilie</span>
+                                </div>
+                            </a>
+                            <p>Online project hosting using Git. Includes source-code browser, in-line editing, wikis, and ticketing. Free for public...</p>
+                    </div>
+                                    </div>
+                                    <div id="link2" class="link" style="display:none">
+                    <div class="text">
+                    <div class="entry-header">
+                        <div>
+                            <a href="" class="entry-title">哈哈哈</a>
+                        </div>
+                        <div class="post-metas">
+                            2016年10月31日推荐：hyz
+                        </div>
+                    </div>
+                    <img src="images/mokewang.jpg">
+                    <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+                    
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+                    
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                                <div class="more" style="display:none">
+                                    <span>Reader Artilie</span>
+                                </div>
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                                    </div>
+                                    <div id="link3" class="link" style="display:none">
+                    <div class="text">
+                        <div class="entry-header">
+                            <div>
+                                <a href="" class="entry-title">嘻嘻嘻</a>
+                            </div>
+                            <div class="post-metas">
+                                2016年10月31日推荐：hyz
+                            </div>
+                        </div>
+                        <img src="images/mokewang.jpg">
+                        <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+                    
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+                    
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                                <div class="more" style="display:none">
+                                    <span>Reader Artilie</span>
+                                </div>
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                </div>
+                <div id="link4" class="link" style="display:none">
+                    <div class="text">
+                    <div class="entry-header">
+                        <div>
+                            <a href="" class="entry-title">呵呵呵</a>
+                        </div>
+                        <div class="post-metas">
+                            2016年10月31日推荐：hyz
+                        </div>
+                    </div>
+                    <img src="images/mokewang.jpg">
+                    <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                                <div class="more" style="display:none">
+                                    <span>Reader Artilie</span>
+                                </div>
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                </div>
+                <div id="link5" class="link" style="display:none">
+                    <div class="text">
+                    <div class="entry-header">
+                        <div>
+                            <a href="" class="entry-title">zzz</a>
+                        </div>
+                        <div class="post-metas">
+                            2016年10月31日推荐：hyz
+                        </div>
+                    </div>
+                    <img src="images/mokewang.jpg">
+                    <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                    <div class="text">
+                            <div class="entry-header">
+                                <div>
+                                    <a href="" class="entry-title">设计师如何与开发者合作（二）：需要询问开发者的问题</a>
+                                </div>
+                                <div class="post-metas">
+                                    2016年10月31日推荐：
+                                    <a href="">hyz</a>
+                                </div>
+
+                            </div>
+                            <a href="">
+                                <img src="images/mokewang.jpg">
+                                <div class="more" style="display:none">
+                                    <span>Reader Artilie</span>
+                                </div>
+                            </a>
+                            <p>最早的下拉刷新设计源自于Tweetie 这款应用的设计，设计师Loren Brichter 是这种令人欲罢不能的交互的缔造者。现在，下拉刷新的交互几乎…</p>
+                    </div>
+                </div>
+                <div class="page clearfix" id="clipDIV" >
+                </div>     
+            </div>
+            
+            <!-- 图片展示3 -->
+            
+            <!-- <div class="PictureShow clearfix" id="show3" style="display:none">
+                <ul id="SucShow">
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/zpshow1.png">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <p class="white f14 mt50"><a>美食网</a></p> 
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/js高程.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">JavaScript高级程序设计</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/深入浅出MySql.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">深入浅出MySql</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/Java编程思想.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                                    <h3 class="white mt80">Java编程思想</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/React Native跨平台开发.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">React Native跨平台开发</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/html5与css3权威指南.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.f6n8tA&id=527168819508&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">html5与css3权威指南</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/锋利的jquery.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.IqDHAE&id=527069392344&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">锋利的jquery</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/ES6.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.hIPIRz&id=526959736279&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">ES6标准入门</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="effect-9 single-member">
+                            <div class="member-image">
+                                
+                                    <img src="images/编写高质量代码.jpg">
+                                </a>
+                            </div>
+                            <div class="more-info">
+                                <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.v7UShq&id=535487012425&cm_id=140105335569ed55e27b&abbucket=2">
+                                    <h3 class="white mt80">编写高质量代码</h3>
+                                </a>
+                                <p class="white f12 mt10">定价：49元</p>
+                                <p class="white f12 mt5">作者：Andy等</p>
+                                
+                            </div>
+                        </div>
+                    </li>
+                   
+                </ul>
+                <div class="page clearfix" id="clipDIV" >
+                </div>
+            </div> -->
+            <!-- 图片展示4 -->
+            <div class="PictureShow clearfix" id="show4" style="display:none">
+                <ul id="GoodShow">
+                    <li><a href="http://www.jq22.com/jquery-info12675">
+                        <img src="images/JqShow-bootstrapUl皮肤.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="http://www.jq22.com/jquery-info12683">
+                        <img src="images/JqShow-tab.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="http://www.jq22.com/jquery-info12694">
+                        <img src="images/JqShow-背景动画效果.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="http://www.jq22.com/jquery-info12691">
+                        <img src="images/JqShow-二维码插件.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="http://www.jq22.com/jquery-info12682">
+                        <img src="images/JqShow-可拖动菜单.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="http://www.jq22.com/jquery-info13582">
+                        <img src="images/JqShow-日历.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <!-- <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.iy8vwE&id=520437288751&ns=1&abbucket=2">
+                        <img src="images/JqShow-bootstrapUl皮肤.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.xXdex1&id=527669964743&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/JqShow-tab.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.EpII2n&id=41057951554&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/JqShow-背景动画效果.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.20.TvtRpe&id=2661994242&ns=1&abbucket=2">
+                        <img src="images/JqShow-二维码插件.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.8.6TlVft&id=534077025902&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/JqShow-可拖动菜单.png">
+                        <div class="mask pa"></div>
+                    </a></li>
+                    <li><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.6.f6n8tA&id=527168819508&cm_id=140105335569ed55e27b&abbucket=2">
+                        <img src="images/JqShow-日历.png">
+                        <div class="mask pa"></div>
+                    </a></li> -->
+                </ul>
+                <!-- <div class="page clearfix" id="clipDIV" >
+                </div>  -->
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <!-- <div class="footer"></div> -->
+        <div class="footer-bg">
+            <div class="footer-inner-wrapper">
+                <div class="inner-block first">
+                    <h3>关于我们</h3>
+                        <p class="about-us">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一群来自不同专业、却有相近生活方式的人，朝夕相处，彼此熟悉，共同快乐；这是一群怀揣不同梦想、却有相同兴趣爱好的人，互相学习，积极进取，共同进步。我们共同组成了"极客网"这个大家庭。自2007年"极客网"（原校当网）创建以来，在老师们和同学们的共同努力下，不断发展壮大，培育出了一批批IT人才。欢迎志趣相同的朋友加入我们，共创美好未来！  
+                        </p>
+                </div><!--inner-block-first end-->
+                <div class="inner-block third">
+                    <h3>网址大全</h3>
+                    <a href="http://hongyan.cqupt.edu.cn/web/" class="more">更多网站 &gt&gt </a>
+                    <ul class="common-care">
+                        <li><a href="http://jgxy.cqupt.edu.cn/">经管学院</a></li>
+                        <li><a href="http://www.cqupt.edu.cn">重庆邮电大学</a></li>
+                        <li><a href="http://jwzx.cqupt.edu.cn/">教务在线</a></li>
+                        <li><a href="http://hongyan.cqupt.edu.cn/">红岩网校</a></li>
+                        <li><a href="http://172.22.4.2/">实验室</a></li>
+                        <li><a href="https://mail.cqupt.edu.cn/">学生邮箱</a></li>
+                        
+                        <li><a href="http://172.22.161.11/">BTdown铺</a></li>
+                        <li><a href="http://hongyan.cqupt.edu.cn/news/">新闻中心</a></li>
+                        <li><a href="http://oa.cqupt.edu.cn/">校务信息</a></li>
+                        <li><a href="http://www.cqcyit.com/">重邮信科</a></li>
+                        <li><a href="http://222.177.140.105/index.shtml">学工在线</a></li>
+                        <li><a href="http://222.177.140.105/default.jsp">网上党校</a></li>
+                        <li><a href="http://jwzx.cqupt.edu.cn/jc/">教材网</a></li>
+                        <li><a href="http://jwzx.cqupt.edu.cn/jc/">教师邮箱</a></li>
+                        <li><a href="http://xk2.cqupt.edu.cn/">选课系统</a></li>
+                        <li><a href="http://www.cqupt.edu.cn/xyy/">校医院</a></li>
+                    </ul>
+                </div><!--end inner-third-->
+                <div class="inner-block four">
+                    <h3>加入我们</h3>
+                    <img src="images/qqqun2.png">
+                </div><!--end inner-block four-->
+            </div><!--footer-inner-wrapper end-->
+                    <div id="back-top" style="display:none;">
+            <a alt="返回顶部" title="返回顶部" href="#">↑</a>
+        </div>
+            <div class="footerBottom">
+                <p><img src="images/line-2.jpg"></p>
+                <li>Copyright®极客网工作室</li>
+            </div>
+        </div><!--footer-bg结束-->
+    </div>
+</body>
+</html>
